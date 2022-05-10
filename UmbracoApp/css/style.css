@@ -1,0 +1,332 @@
+
+.page {
+    background: url('../images/2\ \(1\)\ 1.png') no-repeat center;
+    position: absolute;
+    width: 1221px;
+    height: 814px;
+    left: -250px;
+    top: -2px;
+}
+
+.page .column {
+    position: absolute;
+    left: 45.8%;
+    right: 56.34%;
+    top: 6.9%;
+    bottom: 90.26%;
+}
+
+.page .column-1 {
+    position: absolute;
+    left: 48.08%;
+    right: 50.89%;
+    top: 6.9%;
+    bottom: 90.26%;
+}
+
+.page .column-2 {
+    position: absolute;
+    left: 49.8%;
+    right: 45.23%;
+    top: 6.9%;
+    bottom: 90.24%;
+}
+
+.page .column-3 {
+    position: absolute;
+    left: 50%;
+    right: 45.2%;
+    top: 6.85%;
+    bottom: 91.49%;
+}
+
+.page .column-4 {
+    position: absolute;
+    left: 52.08%;
+    right: 37.87%;
+    top: 6.9%;
+    bottom: 90.26%;
+}
+
+.page .section {
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    left: 460px;
+    top: 157px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 55px;
+    /* or 138% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    background:  #008A00; #e5e5e5; #000000;
+}
+
+.page .box {
+    box-sizing: border-box;
+    position: absolute;
+    width: 24px;
+    height: 0px;
+    left: 600px;
+    top: 766px;
+}
+
+.page-1 {
+    background: url('../images/AdobeStock_183006090\ 1.png') no-repeat center ;
+    position: absolute;
+    width: 527px;
+    height: 819px;
+    left: 98px;
+    top: 814px;
+}
+
+.page-1 .section {
+    position: absolute;
+    width: 341px;
+    height: 133px;
+    left: 90px;
+    top: 621px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    /* or 120% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    background:  #008A00;
+}
+
+.page-2 {
+    background: url('../images/michaeljacobs2\ 1.png') no-repeat center ;
+    position: absolute;
+    width: 919px;
+    height: 626px;
+    left: -98px;
+    top: 1633px;
+}
+
+.page-3 .container{
+    position: absolute;
+    width: 375px;
+    height: 211px;
+    left: 174px;
+    top: 2259px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    /* or 131% */
+    background: #e5e5e5;
+    color: #000000;
+}
+
+.page-4 .container{
+    background: #000000;
+    position: absolute;
+    width: 375px;
+    height: 276px;
+    left: 174px;
+    top: 2470px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 17px;
+    /* or 106% */
+
+    color: #FFFFFF;
+}
+
+.page-5  {
+    position: absolute;
+    width: 512px;
+    height: 629px;
+    left: 105px;
+    top: 2700px;
+
+    background: url('../images/c-users-pettrygg-pictures-food-trust-atea-nett-sjomatdagene2020-142\ 1.png') no-repeat center ;
+}
+
+.page-6 {
+    position: absolute;
+    width: 540px;
+    height: 811px;
+    left: 91px;
+    top: 3329px;
+
+    background: url('../images/4\ \(2\)\ 1.png') no-repeat center;
+}
+
+.page-6 .section {
+    position: absolute;
+    width: 341px;
+    height: 133px;
+    left: 100px;
+    top: 551px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    /* or 120% */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    background: #008A00;
+}
+
+.page-7 {
+    background: url('../images/5\ 1.png') no-repeat center;
+    position: absolute;
+    width: 1217px;
+    height: 812px;
+    left: -247px;
+    top: 4140px;
+}
+
+.page-7 .container{
+    top: 57px;
+    width: 342px;
+    height: 187px;
+    position: absolute;
+    left: 430px;
+
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    /* or 131% */
+    color: #000000;
+}
+
+.page-8 {
+    background: url('../images/3\ 1.png') no-repeat center;
+    position: absolute;
+    width: 1217px;
+    height: 812px;
+    left: -247px;
+    top: 4952px;
+}
+
+.page-8 .section {
+    position: absolute;
+    width: 341px;
+    height: 150px;
+    left: 435px;
+    top: 501px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    /* or 120% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    background: #008A00;
+}
+
+.page-8 .container {
+    position: absolute;
+    width: 72px;
+    height: 55px;
+    left: 570px;
+    top: 727px;
+}
+
+.page-9 {
+    background: url('../images/1\ \(2\)\ 1.png') no-repeat center;
+    position: absolute;
+    width: 1217px;
+    height: 812px;
+    left: -247px;
+    top: 5764px;
+}
+
+.page .container {
+    position: absolute;
+    width: 68px;
+    height: 56px;
+    left: 570px;
+    top: 725px;
+
+}
+
+.page-9 .container-1{
+    top: 57px;
+    width: 342px;
+    height: 187px;
+    position: absolute;
+    left: 430px;
+
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    /* or 131% */
+    color: #000000;
+}
+
+.page-10 {
+    background: url('../images/Screenshot\ 2021-04-26\ at\ 13.52\ 1.png') no-repeat center;
+    position: absolute;
+    width: 1114px;
+    height: 815px;
+    left: -196px;
+    top: 6575px;
+}
+
+.page-10 .container {
+    position: absolute;
+    width: 138px;
+    height: 138px;
+    left: 500px;
+    top: 338px;
+}
+.page-11 {
+    background: url('../images/LOGO\ PODKAST\ 1.png') no-repeat center;
+    position: absolute;
+    width: 375px;
+    height: 375px;
+    left: 174px;
+    top: 7390px;
+}
+.page-12 .container {
+    position: absolute;
+    width: 375px;
+    height: 322px;
+    left: 174px;
+    top: 7765px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+    background: #000000;
+}
+
+
+
+

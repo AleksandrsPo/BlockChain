@@ -1,0 +1,134 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<ContentModels.Content>
+@using ContentModels = Umbraco.Web.PublishedModels;
+@{
+	Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Blockchain</title>
+  </head>
+  <body id="home">
+    <section class="page">
+      <div class="column">
+        <img src="images/Vector.png" alt="">
+      </div>
+      <div class="column-1">
+        <img src="images/Vector1.png" alt="">
+      </div>
+      <div class="column-2">
+        <img src="images/Vector2.png" alt="">
+      </div>
+      <div class="column-3">
+        <img src="images/Vector3.png" alt="">
+      </div>
+      <div class="column-4">
+        <img src="images/Vector4.png" alt="">
+      </div>
+      <div class="section" style="background-color:@Model.Color">
+          @if (Model.HasValue("categories"))
+            {
+                var categories = Model.Value<IEnumerable<string>>("categories");
+                <ul>
+                    @foreach (var category in categories)
+                    {
+                        <li>@category</li>
+                    }
+                </ul>
+            }
+        <p>Mer bærekraftig
+          med Blockchain
+          teknologi</p>
+      </div>
+      <div class="box">
+        <img src="images/Arrow 1.png" alt="">
+      </div>
+    </section>
+
+    <main>
+      <section class="page-1">
+        <div class="section">
+          <p>Sporing av fisk vil øke verdien på sjømateksporten med flere hundre millioner i årene fremover.</p>
+        </div>
+      </section>
+      <section class="page-2">
+      </section>
+      <section class="page-3">
+        <div class="container">
+          <p>Norges nest største eksportnæring vil med blokkjede- teknologi kunne få bedre betalt for fisken, og forbrukerne tryggere mat. Dette skyldes at sjømatnæringen får bedre kontroll og mer effektive og bærekraftige verdikjeder.<br>
+            – Vi ser en raskt voksende utvikling hvor forbrukerne ønsker å kjøpe mat som de kjenner opprinnelsen til og som gir trygghet for at den ikke er tuklet med når den ligger på matfatet, sier Michael Jacobs, admin. direktør i Atea.</p>
+        </div>
+      </section>
+      <section class="page-4">
+        <div class="container">
+          <p>Starter opp nasjonalt nettverk
+            Sjømatbedriftene vil i løpet av kort tid etablere et nasjonalt blokkjedenettverk sammen med Atea basert på blokkjede-teknologi fra IBM.
+            
+            - Nettverket vil bli drevet som en egen enhet, og det vil være tilgjengelig for alle. I praksis betyr dette at alle sjømatprodusenter i Norge vil kunne nyttiggjøre seg teknologien og ta i bruk sporingstjenesten, forklarer administrerende direktør i Sjømatbedriftene, Robert Eriksson.</p>
+        </div>
+      </section>
+      </section>
+      <section class="page-5">
+      </section>
+      <section class="page-6">
+          <div class="section">
+            <p>Sporing av fisk vil øke verdien på sjømateksporten med flere hundre millioner i årene fremover.</p>
+          </div>
+        </div>
+      </section>
+      <section class="page-7">
+        <div class="container">
+          <p>– Norsk sjømat er kjent for den gode kvaliteten. Samtidig har vi fortsatt ikke mulighet til å følge med på hvor fisken kommer fra, oppvekstsvilkår, lagringsforhold, matjuks og hvor mye fisk som faktisk ender opp i svinn. Gjennom denne teknologien blir dette mulig, og vi tror dette bare er starten på noe som vil bety mye for næringen framover, og vil bidra til økt konkurransekraft ved at vi får mer miljøvennlig matvareproduksjon. Dette vil igjen gi produsentene bedre betalt for fisken, sier Eriksson.</p>
+        </div>
+      </section>
+      <section class="page-8">
+        <div class="container">
+          <img src="images/lyd_ingen_hvit 1.png" alt="">
+        </div>
+        <div class="section">
+          <p>Betalingsvilligheten for
+            trygg mat i markedet er økende. Kundene etterspør mer dokumentasjon om maten de spiser.</p>
+        </div>
+      </section>
+      <section class="page-9">
+        <div class="container">
+          <img src="images/lyd 1.png" alt="">
+        </div>
+        <div class="container-1">
+          <p> – Med blokkjede vil en kunde i butikken vite hvilken fjord fisken er fra og når den ble fisket, hvilket for den har spist og om dette er bærekraftig. Tollvesenet vil være mer opptatt av volum, informasjonstilgang og lokasjon på data for å få til en mer effektiv tollklarering av lastebiler. Med blokkjede kan vi samle all informasjonen som trengs, og samtidig dele relevante data med tredjepart, forteller Espen Braathe i IBM Food Trust Europe.</p>
+        </div>
+      </section>
+      <section class="page-10">
+        <div class="container">
+          <img src="images/play 1.png" alt="">
+        </div>
+      </section>
+      <section class="page-11">
+      </section>
+      <section class="page-12">
+        <div class="container">
+          <p>#33 Blockchain, fiskeoppdrett og Whole Foods
+
+            29 min · 21.11.2019
+            
+            Mange snakker om at blockchain vil revolusjonere hverdagen vår. For mange har blockchain vært ensbetydende med kryptovaluta, og da spesielt bitcoin, men denne teknologien har faktisk mye større potensiale enn det.
+            
+            Hva har Kvarøy Fiskeoppdrett lært? Hvilke utfordringer er det? Hvordan kan de utvide bruksområdene for denne teknologien? Og hvilke råd vil de gi til andre som “snuser” på Blockchain?
+            
+            Vi tok en prat med Alf-Gøran Knutsen, daglig leder i Kvarøy Fiskeoppdrett, og Espen Braathe, leder for satsingen på Food Trust i IBM Europa.</p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
